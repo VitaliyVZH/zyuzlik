@@ -7,6 +7,8 @@ import os
 import logging
 import telebot
 from dotenv import load_dotenv
+
+from database.create_database import create_tables
 from handlers.handler_document import handler_excel_document
 from logs.logging_config import setup_logging
 
@@ -39,4 +41,5 @@ def main() -> None:
 
 if __name__ == '__main__':
     setup_logging()
+    create_tables()
     main()

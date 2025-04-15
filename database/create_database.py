@@ -29,8 +29,3 @@ def create_tables():
     except Exception as e:
         logger.critical(f"Фатальная ошибка: {e}", exc_info=True)
         raise
-
-
-if __name__ == "__main__":
-    setup_logging()
-    create_tables()
