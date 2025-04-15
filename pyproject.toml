@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "zyuzlik"
+version = "0.1.0"
+description = ""
+authors = ["Vitaliy Zhilyaev <jilyaev1987@yandex.ru>"]
+readme = "README.md"
+# УДАЛИТЬ ЭТУ СТРОКУ: requires-python = ">=3.13"
+
+[tool.poetry.dependencies]
+python = ">=3.13"  # Версия Python указывается здесь
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+xlrd = "^2.0.1"
+xlsxwriter = "^3.2.2"
+python-dotenv = "^1.1.0"
+python-telegram-bot = "^22.0"
+beautifulsoup4 = "^4.13.3"
+lxml = "^5.3.2"
+selenium = "^4.31.0"
+requests = "^2.32.3"
+selenium-stealth = "^1.0.6"
+undetected-chromedriver = "^3.5.5"
+setuptools = "^78.1.0"
+pytelegrambotapi = "^4.26.0"
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

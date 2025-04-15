@@ -1,3 +1,27 @@
+#  Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+
+#  IDE
 .idea/
-venv
+*.swp
+*.swo
+
+#  Окружения
 .env
+.env.local
+*.env
+venv
+
+#  Логи
+*.log
+bot.log
+
+# БД и сохранённые файлы
+downloads/
+*.db
+*.sqlite
