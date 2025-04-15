@@ -37,7 +37,7 @@
    https://github.com/VitaliyVZH/zyuzlik
    
 2. **Перейдите в директорию проекта**
-cd ваш_репозиторий
+<p>cd ваш_репозиторий</p>p
 
 3. **Установите Poetry**
 pip install Poetry
