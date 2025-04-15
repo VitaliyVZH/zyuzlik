@@ -37,21 +37,21 @@
    https://github.com/VitaliyVZH/zyuzlik
    
 2. **Перейдите в директорию проекта**
-<p>cd ваш_репозиторий</p>p
+<p>cd ваш_репозиторий</p>
 
 3. **Установите Poetry**
-pip install Poetry
+<p>pip install Poetry</p>
 
 4. **Инициализируйте Poetry**
-poetry init
+<p>poetry init</p>
 
 5. **Установите программы из Poetry**
-poetry install
+<p>poetry install</p>
 
 6. **Получите токен телеграм бота**
 
 7. **В корне проекта создайте файл .env и добавьте в него токен бота**
-TOKEN_BOT = "ВАШ ТОКЕН"
+<p>TOKEN_BOT = "ВАШ ТОКЕН"</p>
 
 8. **Запустите бота**
-python bot/bot.py
+<p>python bot/bot.py</p>
